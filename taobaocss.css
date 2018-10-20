@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;/*去掉ul产生的小黑点*/
+    text-decoration: none;/*a标签的作用*/
+}
+html,body{
+    width:100%;
+    background-color:white;
+    height: 1000px;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.wrap .nav{
+    height: 35px;
+    width: 100%;
+    background-color: #eeeeee;
+    /*border: 2px solid black;*/
+}
+.wrap .nav .nav-1{
+    width: 1190px;
+    height: 35px;
+    margin: 0 auto;
+}
+.wrap .nav .nav-left li{
+    float: left;
+
+}
+.wrap .nav .nav-right li{
+    float: right;
+}
+.wrap .nav-1 li a{
+    margin-right: 7px;
+    line-height:35px ;
+    color: #888888;
+    font-size: 14px;
+}
+.wrap .nav-1 li a:hover{
+    color: #F75000;
+}
+.wrap .nav-1 .nav-left .login{
+    color: #F75000;
+}
+.wrap .nav-1 .nav-left .china{
+
+}
+/*   导航结束 */
+
+
+
+
+
+
+
+.wrap .input{
+    width: 100%;
+    height: 97px;
+    /*border: 1px solid black;*/
+    padding-top: 24px;
+    padding-bottom: 9px;
+}
+.out{
+    width: 1190px;
+    height: 88px;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+}
+.wrap .input .out .pic{
+    width: 190px;
+    height:80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.wrap .input .out .pic img{
+    width: 100%;
+    height: 100%;
+}
+.wrap .input .out .ss{
+    height:87px;
+    width:627px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 80px;
+}
+.wrap .input .out .ss .top-1{
+    width: 627px;
+    height: 62px;
+    /* border:1px solid black;*/
+}
+.wrap .input .out .ss .top-1 .top-word li{
+    display: inline-block;
+    width: 36px;
+    height: 22px;
+    margin-right: 6px;
+    color: orangered;
+    font-size: 15px;
+}
+.wrap .input .out .ss .top-1 .top-word li:hover{
+    background-color: #FF8000;
+}
+.wrap .input .out .ss .top-1 .top-word .select{
+    display: inline-block;
+    background: linear-gradient(to right,#FFA042 0,#F75000 100%);
+}
+.wrap .input .out .ss .input-1{
+    width: 627px;
+    height: 40px;
+    position: relative;
+     /*border: 1px solid black;*/
+
+}
+.wrap .input .out .ss .input-1 .btn{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    width: 74px;
+    height: 40px;
+    z-index: 1000;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.wrap .input .out .ss .input-1 .btn button{
+    border: none;
+    width:100%;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    background: linear-gradient(to right,#FFA042 0,#F75000 100%);
+
+
+}
+.wrap .input .out .ss .input-2{
+    width: 551px;
+    border: 2px solid #eeeeee;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-right: none;
+    height: 36px;
+}
+.wrap .input .out .ss .input-2 .input-3{
+    width: 472px;
+    height: 36px;
+    overflow: hidden;
+}
+.wrap .input .out .ss .input-2 .input-3 input{
+    width: 472px;
+    height: 24px;
+    line-height: 24px;
+    border: none;
+    outline: 0;
+    text-indent: 20px;
+    font-size: 15px;
+    padding: 6px 16px;
+    background-color: #FCFCFC;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.wrap .input .out .ss .camera{
+    display: inline-block;
+    position: absolute;
+}
+.wrap .input .out .ss .camera{
+    width: 30px;
+    height: 30px;
+    top:5px;
+    right:80px;
+    background-image: url("images/5.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-color: whitesmoke;
+}
+.wrap .input .out .ss .word-2 li{
+    font-size: 13px;
+    display: inline-block;
+}
+.wrap .input .out .ss .word-2 li:hover{
+    color: #F75000;
+}
+.wrap .input .out .ss .word-2 li span{
+    color: #F75000;
+}
+.wrap .input .out  .code-pic{
+    display: inline-block;
+    width:76px;
+    height:90px;
+   /* border: 1px solid black;*/
+    vertical-align: middle;
+    position: absolute;
+    right: 80px;
+}
+.wrap .input .out  .code-pic .phone-tao{
+    width: 76px;
+    height: 20px;
+   /* border: 1px solid red ;*/
+}
+.wrap .input .out  .code-pic .phone-tao span{
+    color: #F75000;
+    font-size: 13px;
+   padding-left: 10px;
+}
+.wrap .input .out  .code-pic .pic-2{
+    width: 76px;
+    height: 66px;
+    /*border: 2px solid red;*/
+    background-image: url("images/7.png");
+    background-size: 76px 66px;
+}
+/*
+
+第二个小导航栏
+
+*/
+
+
+
+
+
+
+.wrap .Nav-2 .nav-2{
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to right,#FFA042 0,#F75000 100%);
+}
+
+.wrap .Nav-2 .nav-2 .nav-2-l span{
+    display: inline-block;
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+    margin-left: 30px;
+    width: 190px;
+    height: 30px;
+    background-color: #F75000;
+    text-align: center;
+}
+.wrap .Nav-2 .nav-2 .nav-2-l li{
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 30px;
+    color: white;
+}
+.wrap .out-frames{
+    width: 1190px;
+    height: 632px;
+   /* border: 1px solid red ;*/
+    margin: 0 auto;
+}
+.wrap .out-frames .Middle-l{
+    width: 890px;
+    height: 632px;
+    /*border: 1px solid black;*/
+    float: left;
+}
+.wrap .out-frames .Middle-l .middle-l-word li{
+    line-height: 35px;
+    padding-left: 30px;
+    color: #888888;
+
+}
+.wrap .out-frames .Middle-l .middle-l{
+    width: 180px;
+    height: 522px;
+    border: 1px solid orangered;
+    float: left;
+}
+.wrap .out-frames .Middle-l .middle-con{
+    height: 522px;
+    width: 520px;
+    /*border: 1px solid blue;*/
+    float: left;
+}
+.wrap .out-frames .Middle-l .middle-con .con-pic-1{
+    width: 520px;
+    height: 290px;
+
+}
+.wrap .out-frames .Middle-l .middle-con .con-pic-1 li{
+    position: absolute;
+    display: inline-block;
+}
+.wrap .out-frames .Middle-l .middle-con .con-pic-1 #pp{
+    background-image: url("images/8.png");
+    animation: pp 10s infinite;
+    width:520px ;
+    height: 290px;
+}
+.wrap .out-frames .Middle-l .middle-con .con-pic-1 #i{
+    background-image: url("images/9.png");
+    animation: i 10s infinite;
+    width: 520px;
+    height: 290px;
+}
+.wrap .out-frames .Middle-l .middle-con .con-pic-1 #c{
+    background-image: url("images/10.png");
+    animation: c 10s infinite;
+    width: 520px;
+    height: 290px;
+}
+.wrap .out-frames .Middle-l .middle-con .con-pic-1 #xx{
+    background-image: url("images/11.png");
+    animation: xx 10s infinite;
+    width: 520px;
+    height: 290px;
+}
+
+@keyframes pp {
+    0%{opacity: 0}
+    25%{opacity: 100}
+    50%{opacity: 0}
+    75%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes i {
+    0%{opacity: 0}
+    25%{opacity: 0}
+    50%{opacity: 100}
+    75%{opacity: 0}
+    100%{opacity: 0}
+
+}
+@keyframes c {
+    0%{opacity: 0}
+    25%{opacity: 0}
+    50%{opacity: 0}
+    75%{opacity: 100}
+    100%{opacity: 0}
+
+}
+@keyframes xx {
+    0%{opacity: 0}
+    25%{opacity: 0}
+    50%{opacity: 0}
+    75%{opacity: 0}
+    100%{opacity: 100}
+
+
+}
+.wrap .out-frames .Middle-l .middle-con .con-pic-2{
+    width: 520px;
+    height: 210px;
+   /* border: 1px solid yellow;*/
+    position: absolute;
+    top:509px;
+    background-image: url("images/12.png");
+    background-size: 520px 210px;
+}
+.wrap .out-frames .Middle-l .middle-con .picture-3{
+    width: 520px;
+    height: 19px;
+    background-image: url("images/13.png");
+    position: absolute;
+    top:490px;
+    background-size: 520px 19px;
+}
+
+
+.wrap .out-frames .Middle-l .middle-r{
+        width: 183px;
+        height: 522px;
+        /*border: 1px solid yellow;*/
+    float: right;
+}
+.wrap .out-frames .Middle-l  .middle-r .middle-pic-1{
+    width: 183px;
+    height: 300px;
+    background-image: url("images/14.png");
+    background-size: 183px 300px;
+
+}
+.wrap .out-frames .Middle-l  .middle-r .middle-pic-2{
+    width: 183px;
+    height: 221px;
+    background-image: url("images/15.png");
+    background-size: 183px 221px;
+
+}
+
+.wrap .out-frames .Middle-l .middle-b{
+    width: 890px;
+    height: 108px;
+    /*border: 1px solid deeppink;*/
+    position: absolute;
+    margin-top: 522px;
+    background-image: url("images/16.png");
+    background-size: 890px 108px;
+}
+
+.wrap .bottom .out-frames-r{
+    width: 295px;
+    height: 632px;
+   /* border: 1px solid orange;*/
+    float: right;
+}
+.wrap .bottom .out-frames-r .top{
+    width: 295px;
+    height: 290px;
+   /* border: 1px solid red;*/
+}
+.wrap .bottom .out-frames-r .top .top-pic{
+    background-image: url("images/17.png");
+    width: 295px;
+    height: 120px;
+    background-size: 295px 120px;
+}
+.wrap .bottom .out-frames-r .top .log-re li{
+    display: inline-block;
+    padding-left: 15px;
+    width:70px;
+    height: 20px;
+    background-color: #FF8000;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+   margin-top: 10px;
+    margin-left: 10px;
+}
+.wrap .bottom .out-frames-r .top .long-bg{
+    width: 290px;
+    height: 25px;
+    background: #FFCBB3;
+    margin-top: 10px;
+    text-align: center;
+    color: #FF8040;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+}
+.wrap .bottom .out-frames-r .top .top-last .top-last-1{
+    display: inline-block;
+    width: 295px;
+    height: 20px;
+
+}
+.wrap .bottom .out-frames-r .top .top-last .top-last-1 li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
+}
+.wrap .bottom .out-frames-r .top .top-last .top-last-1 .n{
+    margin-top: 10px;
+}
+.wrap .bottom .out-frames-r .top .top-last .top-last-1 .n a{
+    font-size: 14px;
+    color: black;
+
+
+}
+.wrap .bottom .out-frames-r .top .top-last .top-last-1 .n a:hover{
+    color: #FF8000;
+}
+.wrap .bottom .out-frames-r .middle{
+    width: 295px;
+    height: 230px;
+    /*border: 1px solid black;*/
+}
+.wrap .bottom .out-frames-r .middle .middle-pic-t{
+    width: 70px;
+    height: 70px;
+    background-image: url("images/18.png");
+    background-size: 70px 70px;
+}
+.wrap .bottom .out-frames-r .middle .middle-pic-bb{
+    width: 295px;
+    height: 160px;
+    background-image: url("images/19.png");
+    background-size: 295px 160px;
+}
+.wrap .bottom .out-frames-r .last{
+    width: 295px;
+    height: 108px;
+    /*border: 1px solid rebeccapurple;*/
+    background-image: url("images/20.png");
+    background-size: 295px 108px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.have{
+    width: 500px;
+    height: 700px;
+    border: 1px solid lightblue;
+    margin: 80px auto;
+
+    background: linear-gradient(to bottom,lightskyblue 0,snow 100%);
+}
+.have .pic-c{
+    width: 400px;
+    height: 300px;
+    border: 1px solid lightskyblue;
+    margin:18px auto;
+    background-image: url("images/12.jpg");
+    background-size: 400px 300px;
+}
+.have .words-1{
+    font-size: 22px;
+    text-align: center;
+    color: #FCFCFC;
+}
+
+.have .words-2 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 8px;
+
+}
+.have .words-3 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 24px;
+}
+.have .words-4 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+.have .music-2{
+    margin-top: 90px;
+    margin-left: 24px;
+}
+.music-2 .music-2-1{
+ width: 450px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
